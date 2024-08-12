@@ -23,9 +23,11 @@ const divClick=(e)=>{
     }else{
         const gameBox= document.getElementById('gameBox');
     gameBox.innerHTML=`
-        <h2>  !!!  You Press the Wrong Number....</h2>
+       <div id=message1>
+        <h2>  !!!  You Press the Wrong Number</h2>
         <h2>Game Over!!! </h2> 
         <h2>!!! Click Start Button to Restart the game</h2>
+        </div>
     `;
     
     }

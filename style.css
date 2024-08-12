@@ -94,9 +94,20 @@ body{
 }
 #message{
     height:fit-content ;
+    font-size: 15px;
     width: full;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#message1{
+    height:fit-content ;
+    font-size: 15px;
+    width: full;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
